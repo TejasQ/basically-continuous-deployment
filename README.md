@@ -39,7 +39,7 @@ And so, I've got to:
         *   One ending with .pub **(make a note of this)**.
         *   And one with the name you gave it.
 *   Encrypt them with Travis:
-    *   Make sure you have the{" "} [Travis CLI](https://github.com/travis-ci/travis.rb) {" "} installed.
+    *   Make sure you have the [Travis CLI](https://github.com/travis-ci/travis.rb)  installed.
     *   In the terminal, run:  
         `travis encrypt-file WHATEVER_YOU_NAMED_YOUR_KEY`
     *   It will then create a `.enc` file based your key's filename.
@@ -54,7 +54,7 @@ And so, I've got to:
     *   See [this project's .travis.yml](https://github.com/TejasQ/basically-continuous-deployment/blob/master/.travis.yml) as an example.
 *   Add the keys to my GitHub account:
     *   The last step is actually adding the public part of your key to your GitHub profile to say "yes, the Travis thing using my key is basically me".
-    *   [Go here](https://github.com/settings/keys) , click the green **New SSH Key**, and paste the contents of your .pub file in the{" "} `key` field, giving it an appropriate title.
+    *   [Go here](https://github.com/settings/keys) , click the green **New SSH Key**, and paste the contents of your .pub file in the `key` field, giving it an appropriate title.
     *   Bam!
 
 
