@@ -1,0 +1,13 @@
+# This file tells Travis what's up
+language: node_js
+node_js:
+- stable
+
+# When Travis gets notified of a new build, do this
+script: bash ./deploy.sh
+
+# Here's some variables for Travis
+env:
+  global:
+  - ENCRYPTION_LABEL: "14a905a50f00" # This is important, it's documented in deploy.sh
+  - COMMIT_AUTHOR_EMAIL: "tejas@tejas.qa"
