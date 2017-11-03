@@ -117,7 +117,7 @@ chmod 600 key
 
 # Add key
 eval `ssh-agent -s`
-ssh-add deploy_key
+ssh-add key
 
 # Push the new gh-pages with the -f tag, overwriting it completely.
 # Basically, this guarantees that `gh-pages` is ALWAYS 1 commit ahead of master, with the latest production code.
