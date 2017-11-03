@@ -63,7 +63,7 @@ doCompile
 #
 # and then for each found file,
 # delete it.
-find . ! -name keys.enc ! -name build ! -name .git ! -name . -maxdepth 1 -exec rm -rf {} +
+find . -maxdepth 1 ! -name keys.enc ! -name build ! -name .git ! -name . -exec rm -rf {} +
 
 # Get the current directory.
 cwd=`pwd`
@@ -122,5 +122,6 @@ ssh-add deploy_key
 # Push the new gh-pages with the -f tag, overwriting it completely.
 # Basically, this guarantees that `gh-pages` is ALWAYS 1 commit ahead of master, with the latest production code.
 git push -f -u $REPO_LINK $TARGET_BRANCH
+exit 0
 
 # Thank you for reading. Happy internetting! 🚀
