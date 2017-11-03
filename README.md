@@ -1,4 +1,4 @@
-# Basically, Continuous Deployment
+# _Basically_, Continuous Deployment
 ![Build Status](https://travis-ci.org/TejasQ/basically-continuous-deployment.svg?branch=master)
 
 This project was created to help introduce the concept of _Continuous Deployment_ to anyone interested.
