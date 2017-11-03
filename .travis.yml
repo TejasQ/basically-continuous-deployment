@@ -9,5 +9,5 @@ script: bash ./deploy.sh
 # Here's some variables for Travis
 env:
   global:
-  - ENCRYPTION_LABEL: "14a905a50f00" # This is important, it's documented in deploy.sh
+  - ENCRYPTION_LABEL: "d0e50c888661" # This is important, it's documented in deploy.sh
   - COMMIT_AUTHOR_EMAIL: "tejas@tejas.qa"
