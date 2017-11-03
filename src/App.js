@@ -49,7 +49,7 @@ class App extends Component {
           <li>
             It was created with{" "}
             <code>
-              <a href="https://github.com/facebookincubator/create-react-app" target="_blank">
+              <a href="https://github.com/facebookincubator/create-react-app" target="_blank" rel="noopener noreferrer">
                 create-react-app
               </a>
             </code>.
@@ -117,7 +117,7 @@ class App extends Component {
               <ul>
                 <li>
                   Make sure you have the{" "}
-                  <a href="https://github.com/travis-ci/travis.rb" target="_blank">
+                  <a href="https://github.com/travis-ci/travis.rb" target="_blank" rel="noopener noreferrer">
                     Travis CLI
                   </a>{" "}
                   installed.
@@ -176,7 +176,7 @@ class App extends Component {
                   Travis thing using my key is basically me".
                 </li>
                 <li>
-                  <a href="https://github.com/settings/keys" target="_blank">
+                  <a href="https://github.com/settings/keys" target="_blank" rel="noopener noreferrer">
                     Go here
                   </a>, click the green <strong>New SSH Key</strong>, and paste the contents of your .pub file in the{" "}
                   <code>key</code> field, giving it an appropriate title.
