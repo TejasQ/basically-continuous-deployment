@@ -7,6 +7,8 @@ class App extends Component {
     return (
       <main>
         <h1>Basically, Continuous Deployment</h1>
+        <img alt="Build Status" src="https://travis-ci.org/TejasQ/basically-continuous-deployment.svg?branch=master" />
+        <br />
         <div>
           <p>
             This project was created to help introduce the concept of <em>Continuous Deployment</em> to anyone
