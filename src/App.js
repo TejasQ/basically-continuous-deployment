@@ -32,7 +32,10 @@ class App extends Component {
         </div>
         <div>
           <p>
-            <a href="#">Check out the source code</a> to understand how it works.
+            <a href="https://github.com/TejasQ/basically-continuous-deployment/blob/master/deploy.sh">
+              Check out the source code
+            </a>{" "}
+            to understand how it works.
           </p>
         </div>
         <br />
@@ -56,11 +59,12 @@ class App extends Component {
             <code>git push</code>.
           </li>
           <li>
-            When Travis starts a new build, it executes <a href="#">this script</a>.
+            When Travis starts a new build, it executes{" "}
+            <a href="https://github.com/TejasQ/basically-continuous-deployment/blob/master/deploy.sh">this script</a>.
             <ul>
               <li>
                 It is instructed to use the script, with{" "}
-                <a href="#">
+                <a href="https://github.com/TejasQ/basically-continuous-deployment/blob/master/.travis.yml">
                   <em>this</em> script.
                 </a>
               </li>
@@ -73,7 +77,7 @@ class App extends Component {
           <li>
             After Travis is done, everything's deployed on{" "}
             <code>
-              <a href="#">gh-pages</a>
+              <a href="https://github.com/TejasQ/basically-continuous-deployment/tree/gh-pages">gh-pages</a>
             </code>, and things are live.
           </li>
         </ul>
@@ -150,11 +154,17 @@ class App extends Component {
               Tell Travis how to decrypt them:
               <ul>
                 <li>
-                  In your <a href="#">.travis.yml</a>, you'll want to add an <code>ENCRYPTION_LABEL</code> with that red
-                  thing you copied above.
+                  In your{" "}
+                  <a href="https://github.com/TejasQ/basically-continuous-deployment/blob/master/.travis.yml">
+                    .travis.yml
+                  </a>, you'll want to add an <code>ENCRYPTION_LABEL</code> with that red thing you copied above.
                 </li>
                 <li>
-                  See <a href="#">this project's .travis.yml</a> as an example.
+                  See{" "}
+                  <a href="https://github.com/TejasQ/basically-continuous-deployment/blob/master/.travis.yml">
+                    this project's .travis.yml
+                  </a>{" "}
+                  as an example.
                 </li>
               </ul>
             </li>

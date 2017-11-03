@@ -22,7 +22,7 @@ Glad you asked!
 *   When Travis starts a new build, it executes [this script](https://github.com/TejasQ/basically-continuous-deployment/blob/master/deploy.sh).
     *   It is instructed to use the script, with [_this_ script.](https://github.com/TejasQ/basically-continuous-deployment/blob/master/.travis.yml)
 *   I highly recommend reading the deploy script above. It is heavily documented for you in true _Basically_ fashion, in order to help you understand what's actually happening.
-*   After Travis is done, everything's deployed on [`gh-pages`](#), and things are live.
+*   After Travis is done, everything's deployed on [`gh-pages`](https://github.com/TejasQ/basically-continuous-deployment/tree/gh-pages), and things are live.
 
 ## What's this about keys? 🗝
 
