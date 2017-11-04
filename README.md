@@ -1,4 +1,4 @@
-# _Basically_, Continuous Deployment
+# _Basically_, [Continuous Deployment](https://www.thoughtworks.com/continuous-integration)
 ![Build Status](https://travis-ci.org/TejasQ/basically-continuous-deployment.svg?branch=master)
 
 This project was created to help introduce the concept of _Continuous Deployment_ to anyone interested.
@@ -59,3 +59,6 @@ And so, I've got to:
 
 
 Whew! Now, Travis can properly push your shiny new `gh-pages` to your GitHub project.
+
+## Thanks to
+- [ThoughtWorks](https://www.thoughtworks.com/continuous-integration) for an excellent article on the subject.
